@@ -27,5 +27,8 @@
     <ClCompile Include="part1ex4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="part1ex5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
