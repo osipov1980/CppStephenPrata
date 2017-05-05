@@ -9,13 +9,15 @@ int main()
 	double lightYears;
 	cin >> lightYears;
 	cout << endl;
-	cout << lightYears = yearsToUnits(); << "";
+	double astronomicalUnits;
+	astronomicalUnits = yearsToUnits(lightYears);
+	cout << lightYears << " light years = " << astronomicalUnits << " astronomical units." << endl;
 	cin.get();
 	return 0;
 }
 
 double yearsToUnits(double lightYears)
 {
-	double astronomicalUnits = 63240;
-	return ;
+	double _astronomicalUnits = 63240;
+	return lightYears * _astronomicalUnits;
 }
