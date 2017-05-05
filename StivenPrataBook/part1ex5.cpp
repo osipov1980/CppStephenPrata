@@ -10,8 +10,8 @@ int main()
 	cin >> celsius;
 	cout << endl;
 	cout << celsius << " degrees Celsius is ";
-	celsius = celsiusToFahrenheit(celsius);
-	cout << celsius << " degrees Fahrenheit." << endl;
+	float fahrenheit = celsiusToFahrenheit(celsius);
+	cout << fahrenheit << " degrees Fahrenheit." << endl;
 	cin.get();
 	return 0;
 }
